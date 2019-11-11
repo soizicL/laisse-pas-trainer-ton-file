@@ -19,7 +19,7 @@ if(!empty($_FILES['upload_file'])) {
             if(in_array($fileExtension, $validExtension)) {
 
                 //Nom
-                $key = "";
+                $key = "image";
                 $keys = array_merge(range(0,9), range('a', 'z'));
 
                 for($y =0; $y <10; $y++) {
